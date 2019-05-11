@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./solved.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">💪 📦</h1>
+
+    <h2>No flex</h2>
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </div>
+
+    <h2>Default flex</h2>
+    <div id="default" class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </div>
+
+    <!-- justify-content - Main axis alignment -->
+    <h2>Justify content</h2>
+    <p>
+      <b><code>justify-content</code></b> refers to alignment along the main
+      axis of the parent div. By default this is along the horizontal axis.
+    </p>
+    <p><b>common values</b></p>
+    <ul>
+      <li>flex-start <b>(default)</b></li>
+      <li>flex-end</li>
+      <li>center</li>
+      <li>space-evenly</li>
+      <li>space-between</li>
+    </ul>
+    <div id="justify" class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </div>
+
+    <!-- align-items - Minor axis alignment -->
+    <h2>Align Items</h2>
+    <p>
+      <b><code>align-items</code></b> refers to alignment along the minor axis
+      of the parent div. By default this is along the vertical axis.
+    </p>
+    <p><b>common values</b></p>
+    <ul>
+      <li>flex-start <b>(default)</b></li>
+      <li>flex-end</li>
+      <li>center</li>
+      <li>baseline</li>
+    </ul>
+    <div id="align" class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </div>
+
+    <!-- flex-direction - specifies main and minor axises -->
+    <h2>flex-direction</h2>
+    <p>
+      <b><code>flex-direction</code></b> Specifies orientaion and direction of
+      your Major axis.
+    </p>
+    <p><b>common values</b></p>
+    <ul>
+      <li>row <b>(default)</b></li>
+      <li>column</li>
+      <li>row-reverse</li>
+      <li>column-reverse</li>
+    </ul>
+    <div id="direction" class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </div>
+
+    <!-- flex-wrap - specifies if elements should wrap to a new line -->
+    <h2>Flex wrap</h2>
+    <p>
+      <b><code>flex-wrap</code></b> lets you spefify if elements should wrap to
+      new line when they run out of space
+    </p>
+    <p><b>common values</b></p>
+    <ul>
+      <li>no-wrap <b>(default)</b></li>
+      <li>wrap</li>
+    </ul>
+    <div id="wrap" class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div>
+    </div>
+
+    <!-- pinterest layout -->
+    <h2>Pinterest Style layout</h2>
+    <div id="pinterest" class="container">
+      <div class="column">
+        <img src="https://source.unsplash.com/random/800x600" />
+        <img src="https://source.unsplash.com/random/309x600" />
+        <img src="https://source.unsplash.com/random/500x600" />
+        <img src="https://source.unsplash.com/random/900x600" />
+        <img src="https://source.unsplash.com/random/800x600" />
+        <img src="https://source.unsplash.com/random/400x600" />
+        <img src="https://source.unsplash.com/random/800x601" />
+        <img src="https://source.unsplash.com/random/309x602" />
+        <img src="https://source.unsplash.com/random/500x603" />
+      </div>
+      <div class="column">
+        <img src="https://source.unsplash.com/random/1900x600" />
+        <img src="https://source.unsplash.com/random/1200x600" />
+        <img src="https://source.unsplash.com/random/403x600" />
+        <img src="https://source.unsplash.com/random/803x600" />
+        <img src="https://source.unsplash.com/random/303x600" />
+        <img src="https://source.unsplash.com/random/503x600" />
+        <img src="https://source.unsplash.com/random/800x604" />
+        <img src="https://source.unsplash.com/random/309x605" />
+        <img src="https://source.unsplash.com/random/500x606" />
+      </div>
+      <div class="column">
+        <img src="https://source.unsplash.com/random/300x600" />
+        <img src="https://source.unsplash.com/random/502x600" />
+        <img src="https://source.unsplash.com/random/902x600" />
+        <img src="https://source.unsplash.com/random/840x600" />
+        <img src="https://source.unsplash.com/random/820x600" />
+        <img src="https://source.unsplash.com/random/1400x600" />
+        <img src="https://source.unsplash.com/random/800x607" />
+        <img src="https://source.unsplash.com/random/309x608" />
+        <img src="https://source.unsplash.com/random/500x609" />
+      </div>
+      <div class="column">
+        <img src="https://source.unsplash.com/random/300x610" />
+        <img src="https://source.unsplash.com/random/502x620" />
+        <img src="https://source.unsplash.com/random/902x630" />
+        <img src="https://source.unsplash.com/random/840x640" />
+        <img src="https://source.unsplash.com/random/820x650" />
+        <img src="https://source.unsplash.com/random/1400x660" />
+        <img src="https://source.unsplash.com/random/800x677" />
+        <img src="https://source.unsplash.com/random/309x688" />
+        <img src="https://source.unsplash.com/random/500x699" />
+      </div>
+    </div>
+
+    <!-- More flex links -->
+    <h1>Child flex properties</h1>
+    <ul>
+      <li class="link">
+        <b>Align-self</b> - position one element differently along the minor
+        axis <br />
+        <a
+          target="_blank"
+          href="https://www.w3schools.com/css/css3_flexbox.asp#align-self"
+          >https://www.w3schools.com/align-self</a
+        >
+      </li>
+
+      <li class="link">
+        <b>Flex grow/shrink</b> - specify how elements should grow/shrink when
+        main axis size changes <br />
+        <a
+          target="_blank"
+          href="https://www.w3schools.com/css/css3_flexbox.asp#flex-grow"
+          >https://www.w3schools.com/flex-grow</a
+        >
+      </li>
+
+      <li class="link">
+        <b>Flex-basis</b> - set inital size of element <br />
+        <a
+          target="_blank"
+          href="https://www.w3schools.com/css/css3_flexbox.asp#flex-basis"
+          >https://www.w3schools.com/flex-basis</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
