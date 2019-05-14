@@ -24,7 +24,7 @@
 .column {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  flex: 25%;
 }
 
 .column img {
@@ -35,13 +35,13 @@
 
 @media (max-width: 800px) {
   .column {
-    width: 50%;
+    flex: 50%;
   }
 }
 
 @media (max-width: 600px) {
   .column {
-    width: 100%;
+    flex: 100%;
   }
 }
 
